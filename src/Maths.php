@@ -9,7 +9,7 @@
 namespace Kaopur;
 
 
-class Machs
+class Maths
 {
 
     /**
@@ -45,7 +45,7 @@ class Machs
      * 排列枚举算法
      * 示例:
      * $array = [1,2,3,4,5];
-     *  $permutation = \Kaopur\Machs::permutation($array, 2);
+     *  $permutation = \Kaopur\Maths::permutation($array, 2);
      *  print_r($permutation);
      * @param array $arr 待排列值的组合
      * @param int $len 排列的长度
@@ -100,7 +100,7 @@ class Machs
      * 组合枚举算法
      * 示例:
      * $array = [1,2,3,4,5];
-     *  $permutation = \Kaopur\Machs::combination($array, 2);
+     *  $permutation = \Kaopur\Maths::combination($array, 2);
      *  print_r($permutation);
      * @param array $arr 待排列值的组合
      * @param int $len 排列的长度

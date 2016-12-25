@@ -1,3 +1,5 @@
+composer require kaopur/maths
+
 ```
 $value = \Kaopur\Machs::c(3,2);
 var_dump($value);
