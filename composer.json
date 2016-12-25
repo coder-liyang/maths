@@ -1,0 +1,22 @@
+{
+    "name": "kaopur/maths",
+    "description": "一些数学公式的实现",
+    "keywords": ["maths","permutation","P","C","combination"],
+    "type": "library",
+    "license": "MIT",
+    "homepage":"http://liyangweb.com/",
+    "authors": [
+        {
+            "name": "liyang",
+            "email": "liyangcoder@163.com",
+            "homepage":"http://liyangweb.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{"Kaopur\\":"src/"}
+    },
+    "require": {
+    },
+    "require-dev": {
+    }
+}
