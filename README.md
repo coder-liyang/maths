@@ -1,4 +1,6 @@
 ```
+How to install?
+
 composer require kaopur/maths
 or
 composer require kaopur/maths v1.0.4
