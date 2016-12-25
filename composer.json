@@ -1,7 +1,10 @@
 {
     "name": "kaopur/maths",
     "description": "一些数学公式的实现",
-    "keywords": ["maths","permutation","P","C","combination"],
+    "keywords": [
+        "maths", "formula", "permutation", "P", "C", "combination",
+        "数学","公式", "排列组合", "排列", "组合", "全排列"
+    ],
     "type": "library",
     "license": "MIT",
     "homepage":"http://liyangweb.com/",

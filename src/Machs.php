@@ -53,7 +53,7 @@ class Machs
      */
     public static function permutation($arr, $len)
     {
-        self::$_result = [];
+        self::$_result = array();
         return self::_permutation($arr, $len);
     }
 
@@ -73,7 +73,7 @@ class Machs
                 $tmp = array_shift($arr);
                 self::$_tmp[] = $tmp;
                 self::_permutation($arr, $len-1);
-                self::$_tmp = [];
+                self::$_tmp = array();
                 array_push($arr, $tmp);
             }
         }
@@ -92,7 +92,7 @@ class Machs
     public static function c($n, $m)
     {
         if($n < $m) return false;
-        return self::P($n,$m)/self::P($m,$m);
+        return self::p($n,$m)/self::p($m,$m);
     }
 
 
@@ -108,7 +108,7 @@ class Machs
      */
     public static function combination($arr, $len)
     {
-        self::$_result = [];
+        self::$_result = array();
         return self::_combination($arr, $len);
     }
 
@@ -116,6 +116,7 @@ class Machs
      * 组合combination的辅助方法
      * @param $arr
      * @param $len
+     * @param array $item
      * @return array
      */
     private static function _combination($arr, $len, $item = array())
