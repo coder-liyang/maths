@@ -24,3 +24,6 @@ echo '<pre>';
 
 // $value = \Kaopur\Maths::primeNumber(100);
 // var_dump($value);
+
+// $value = \Kaopur\Maths::isPrimeNumber(4);
+// var_dump($value);

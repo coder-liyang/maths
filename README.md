@@ -2,8 +2,6 @@
 How to install?
 
 composer require kaopur/maths
-or
-composer require kaopur/maths v1.0.4
 ```
 
 ```
@@ -17,5 +15,11 @@ $value = \Kaopur\Maths::p(3,2);
 var_dump($value);
 
 $value = \Kaopur\Maths::permutation($array, 2);
+var_dump($value);
+
+$value = \Kaopur\Maths::primeNumber(100);
+var_dump($value);
+
+$value = \Kaopur\Maths::isPrimeNumber(4);
 var_dump($value);
 ```

@@ -163,4 +163,19 @@ class Maths
         } while ($i < $max);
         return $result;
     }
+
+    /**
+     * 检查一个数是否是质数
+     * @param $number
+     * @return bool
+     */
+    public static function isPrimeNumber($number)
+    {
+        for ($i=2; $i<$number; $i++) {
+            if ($number%$i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
