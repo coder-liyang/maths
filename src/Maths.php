@@ -178,4 +178,21 @@ class Maths
         }
         return true;
     }
+
+    /**
+     * 计算一个正整数的阶乘
+     * x!
+     * @param $number
+     * @return mixed
+     */
+    function factorial($number)
+    {
+        $number = (int)abs($number);
+        if ($number > 1) {
+            $result = $number * self::factorial($number-1);
+        } else {
+            $result = $number;
+        }
+        return $result;
+    }
 }
