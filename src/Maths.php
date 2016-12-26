@@ -33,7 +33,9 @@ class Maths
      */
     public static function p($n, $m)
     {
-        if($n < $m) return false;
+        if($n < $m) {
+            return false;
+        }
         $num = 1;
         for($i=0; $i<$m; $i++){
             $num = $num * ($n-$i);
@@ -91,7 +93,9 @@ class Maths
      */
     public static function c($n, $m)
     {
-        if($n < $m) return false;
+        if($n < $m) {
+            return false;
+        }
         return self::p($n,$m)/self::p($m,$m);
     }
 
@@ -133,4 +137,30 @@ class Maths
         return self::$_result;
     }
 
+    /**
+     * 找到一定范围内的质数/素数
+     * @param int $max 质数范围
+     * @return array
+     */
+    public static function primeNumber($max)
+    {
+        $max = (int)$max;
+        $result = array();
+        $i = 1;
+        do{
+            $k = 0;
+            $i++;
+            $j = 1;
+            do {
+                $j++;
+                if ($i%$j == 0) {
+                    $k++;
+                }
+            } while ($j < $i);
+            if ($k == 1) {
+                $result[] = $i;
+            }
+        } while ($i < $max);
+        return $result;
+    }
 }
