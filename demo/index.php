@@ -28,5 +28,5 @@ echo '<pre>';
 // $value = \Kaopur\Maths::isPrimeNumber(4);
 // var_dump($value);
 
- $value = \Kaopur\Maths::factorial(10);
- var_dump($value);
+// $value = \Kaopur\Maths::factorial(10);
+// var_dump($value);
