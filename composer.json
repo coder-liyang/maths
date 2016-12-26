@@ -2,7 +2,7 @@
     "name": "kaopur/maths",
     "description": "一些数学公式的实现",
     "keywords": [
-        "maths", "formula", "permutation", "P", "C", "combination","prime number"
+        "maths", "formula", "permutation", "P", "C", "combination","prime number",
         "数学","公式", "排列组合", "排列", "组合", "全排列","质数","素数"
     ],
     "type": "library",
