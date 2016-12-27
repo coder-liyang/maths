@@ -1,5 +1,6 @@
 ## Home page ##
 [http://www.liyangweb.com/296.html](http://www.liyangweb.com/296.html)
+<a href="http://www.liyangweb.com/296.html" target="_blank">Home page</a>
 
 ```
 How to install?
