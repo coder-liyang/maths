@@ -30,3 +30,6 @@ echo '<pre>';
 
 // $value = \Kaopur\Maths::factorial(10);
 // var_dump($value);
+
+//$value = \Kaopur\Maths::fibonacciSequence(100);
+//var_dump($value);

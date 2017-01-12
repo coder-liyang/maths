@@ -185,13 +185,31 @@ class Maths
      * @param $number
      * @return mixed
      */
-    function factorial($number)
+    public static function factorial($number)
     {
         $number = (int)abs($number);
         if ($number > 1) {
             $result = $number * self::factorial($number-1);
         } else {
             $result = $number;
+        }
+        return $result;
+    }
+
+    /**
+     * 生成指定个数的斐波那契数列
+     * F（n）=F(n-1)+F(n-2)
+     * @param int $n 生成的数量
+     * @return array
+     */
+    public static function fibonacciSequence($n)
+    {
+        $n = max(2,$n);
+        $result = array(0);
+        for($a=1, $i=1; $i<$n; $i=$i+$a){
+            $result[] = $a;
+            $result[] = $i;
+            $a = $a +$i;
         }
         return $result;
     }
