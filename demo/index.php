@@ -11,8 +11,6 @@ $array = array(1,2,3);
 echo '<pre>';
 
  $value = \Kaopur\maths\Maths::c(3,2);
-
-$test = new \Kaopur\yii2appdoc\Module();
  var_dump($value);
 
 // $value = \Kaopur\Maths::combination($array, 2);
