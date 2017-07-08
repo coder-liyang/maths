@@ -6,7 +6,7 @@
  * Time: 下午9:49
  */
 
-namespace Kaopur;
+namespace Kaopur\maths;
 
 
 class Maths

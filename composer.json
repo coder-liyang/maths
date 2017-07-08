@@ -16,7 +16,7 @@
         }
     ],
     "autoload": {
-        "psr-4":{"Kaopur\\":"src/"}
+        "psr-4":{"Kaopur\\maths\\":"src/"}
     },
     "require": {
     },
